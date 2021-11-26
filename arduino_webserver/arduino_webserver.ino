@@ -1,8 +1,8 @@
 #include <SPI.h>
 #include <Ethernet.h>
 
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress ip(192, 168, 1, 177);
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0x06 };
+IPAddress ip(192, 168, 8, 25);
 EthernetServer server(80);
 
 void setup()
@@ -43,8 +43,6 @@ void loop()
           client.println(F("<h2>Entradas digitales</h2>"));
           for (int i = 0; i < 13; i++)
           {
-
-
             
             client.print("D");
             client.print(i);
