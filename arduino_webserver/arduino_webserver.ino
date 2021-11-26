@@ -44,6 +44,7 @@ void loop()
           for (int i = 0; i < 13; i++)
           {
 
+
             
             client.print("D");
             client.print(i);
