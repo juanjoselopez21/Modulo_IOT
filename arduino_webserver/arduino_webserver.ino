@@ -37,7 +37,7 @@ void loop()
           client.println(F("HTTP/1.1 200 OK\nContent-Type: text/html"));
           client.println();
 
-          client.println(F("<html>\n<head>\n<title>Luis Llamas</title>\n</head>\n<body>"));
+          client.println(F("<html>\n<head>\n<title>Juanjo MM93</title>\n</head>\n<body>"));
           client.println(F("<div style='text-align:center;'>"));
 
           client.println(F("<h2>Entradas digitales</h2>"));
