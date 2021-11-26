@@ -43,6 +43,7 @@ void loop()
           client.println(F("<h2>Entradas digitales</h2>"));
           for (int i = 0; i < 13; i++)
           {
+
             
             client.print("D");
             client.print(i);
